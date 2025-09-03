@@ -10,6 +10,8 @@ namespace ExercisesInCSharp
     {
         static void Main(string[] args)
         {
+            FlowControl_CalcUsingIF.Calculator();
+
         }
     }
 }
