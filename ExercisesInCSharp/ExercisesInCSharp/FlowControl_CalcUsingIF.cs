@@ -23,10 +23,34 @@ namespace ExercisesInCSharp
             Console.WriteLine("Enter second number.");
             intB = Convert.ToInt32(Console.ReadLine());
 
-
-
-
-
+            if (operation == '+')
+            {
+                Console.WriteLine($"{intA} {operation} {intB} = {intA + intB}");
+            }
+            else if (operation == '-')
+            {
+                Console.WriteLine($"{intA} {operation} {intB} = {intA - intB}");
+            }
+            else if (operation == '*')
+            {
+                Console.WriteLine($"{intA} {operation} {intB} = {intA * intB}");
+            }
+            else if (operation == '/')
+            {
+                try
+                {
+                    int result = intA / intB;
+                    Console.WriteLine($"{intA} {operation} {intB} = {result}");
+                }
+                catch (DivideByZeroException ex)
+                {
+                    Console.WriteLine("Error: Cannot divide by zero " + ex);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid Operation");
+            }
 
         }
     }
