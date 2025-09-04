@@ -10,4 +10,7 @@
 
 //FlowControl_DoWhile.DoWhile();
 
-FlowControl_RangeOfANumber.NumberRange(3, 23);
+//FlowControl_RangeOfANumber.NumberRange(3, 23);
+
+//Misc_FizzBBuzz.FBuzz(100);
+Misc_FizzBBuzz.FizzBuzzLong(100);
