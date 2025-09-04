@@ -11,7 +11,7 @@ namespace AllExercises
     {
         public static void NumberRange(int x, int y)
         {
-            for (int i = x; i < y; i++)
+            for (int i = x; i <= y; i++)
             {
                 Console.Write($"{i},");
             }
