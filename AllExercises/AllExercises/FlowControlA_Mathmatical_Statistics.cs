@@ -29,8 +29,11 @@ namespace AllExercises
             decimal average = sum / total; 
             int min = numbers.Min();
             int max = numbers.Max();
-            
 
+            Console.WriteLine($"Max = {max}");
+            Console.WriteLine($"Min = {min}");
+            Console.WriteLine($"Sum = {sum}");
+            Console.WriteLine($"Average = {average}");
 
         }
 

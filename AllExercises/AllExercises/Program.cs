@@ -13,4 +13,6 @@
 //FlowControl_RangeOfANumber.NumberRange(3, 23);
 
 //Misc_FizzBBuzz.FBuzz(100);
-Misc_FizzBBuzz.FizzBuzzLong(100);
+//Misc_FizzBBuzz.FizzBuzzLong(100);
+
+FlowControlA_Mathmatical_Statistics.StatsReturn(new int[] { 4, 7, 5, 7, 2 });
