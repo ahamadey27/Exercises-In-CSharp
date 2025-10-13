@@ -17,5 +17,9 @@
 
 //FlowControlA_Mathmatical_Statistics.StatsReturn(new int[] { 4, 7, 5, 7, 2 });
 
-FlowContralB_NumberRepeated.NumRepeat();
+//FlowContralB_NumberRepeated.NumRepeat();
+
+//FlowControlB_MultiplesNumbers.MultNumbers(500);
+
+FlowControlB_AccessControl.AccessCntrl();
 
