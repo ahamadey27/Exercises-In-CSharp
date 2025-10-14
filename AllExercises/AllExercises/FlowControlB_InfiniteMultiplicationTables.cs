@@ -41,6 +41,8 @@ namespace AllExercises
                 break;
             }
 
+            Console.WriteLine();
+
             for (int i = 1; i < 11; i++)
             {
                 int xAnswer = x * i;
