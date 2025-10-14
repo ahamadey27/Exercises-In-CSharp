@@ -27,10 +27,11 @@ namespace AllExercises
                 }
                 else
                 {
-                    Console.Write($"{grade} is not between 0.1 and 10. Please try again");
+                    Console.WriteLine($"{grade} is not between 0.1 and 10. Please try again.");
                 }
 
             }
+            Console.WriteLine();
 
             if (grade >= 9.5m)
             {
@@ -40,27 +41,27 @@ namespace AllExercises
             {
                 Console.WriteLine("A");
             }
-            if (grade >= 8.5m)
+            else if (grade >= 8.5m)
             {
                 Console.WriteLine("B+");
             }
-            else if (grade >= 9)
+            else if (grade >= 8)
             {
                 Console.WriteLine("B");
             }
-            if (grade >= 7.5m)
+            else if (grade >= 7.5m)
             {
                 Console.WriteLine("C+");
             }
-            else if (grade >= 9)
+            else if (grade >= 7)
             {
                 Console.WriteLine("C");
             }
-            if (grade >= 6.5m)
+            else if (grade >= 6.5m)
             {
                 Console.WriteLine("D+");
             }
-            else if (grade >= 9)
+            else if (grade >= 6)
             {
                 Console.WriteLine("D");
             }
