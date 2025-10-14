@@ -21,5 +21,7 @@
 
 //FlowControlB_MultiplesNumbers.MultNumbers(500);
 
-FlowControlB_AccessControl.AccessCntrl();
+//FlowControlB_AccessControl.AccessCntrl();
+
+FlowControlB_InfiniteMultiplicationTables.MultTables();
 

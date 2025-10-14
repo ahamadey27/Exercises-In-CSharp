@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AllExercises
 {
-    public static class InfiniteMultiplicationTables
+    public static class FlowControlB_InfiniteMultiplicationTables
     {
         public static void MultTables()
         {
@@ -22,12 +22,20 @@ namespace AllExercises
                     continue;
                 }
 
-                Console.Write("Enter second number: ");
-                if (!int.TryParse(Console.ReadLine(), out y))
+                while (true)
                 {
-                    Console.WriteLine("Enter a valid integer");
-                    continue;
+                    Console.Write("Enter second number: ");
+                    if (int.TryParse(Console.ReadLine(), out y))
+                    {
+
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Enter a valid integer");
+                    }
                 }
+               
 
                 // Both x and y are assigned, break out of loop
                 break;
@@ -38,6 +46,8 @@ namespace AllExercises
                 int xAnswer = x * i;
                 Console.WriteLine($"{x}x{i}= {xAnswer}");
             }
+
+            Console.WriteLine();
 
             for (int j = 1; j < 11; j++)
             {
