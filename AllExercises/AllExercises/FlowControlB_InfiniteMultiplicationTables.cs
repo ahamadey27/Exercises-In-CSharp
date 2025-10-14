@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace AllExercises
 {
+
+    //Create a C# program that asks the user for a range of numbers (x, y) and displays the multiplication tables from x to y.
     public static class FlowControlB_InfiniteMultiplicationTables
     {
         public static void MultTables()

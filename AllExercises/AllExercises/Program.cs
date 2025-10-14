@@ -23,5 +23,7 @@
 
 //FlowControlB_AccessControl.AccessCntrl();
 
-FlowControlB_InfiniteMultiplicationTables.MultTables();
+//FlowControlB_InfiniteMultiplicationTables.MultTables();
+
+FlowControlB_StudentGradeCalculator.GradeCalc();
 
