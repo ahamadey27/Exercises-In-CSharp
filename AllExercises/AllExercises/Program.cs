@@ -25,5 +25,7 @@
 
 //FlowControlB_InfiniteMultiplicationTables.MultTables();
 
-FlowControlB_StudentGradeCalculator.GradeCalc();
+//FlowControlB_StudentGradeCalculator.GradeCalc();
+
+FlowControlB_RepetitiveStructures.NumRange();
 
