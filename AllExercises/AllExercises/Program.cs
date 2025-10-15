@@ -27,5 +27,7 @@
 
 //FlowControlB_StudentGradeCalculator.GradeCalc();
 
-FlowControlB_RepetitiveStructures.NumRange();
+//FlowControlB_RepetitiveStructures.NumRange();
+
+FlowControlC_PrimeNumber.PrimeNumber();
 
