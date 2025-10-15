@@ -29,5 +29,6 @@
 
 //FlowControlB_RepetitiveStructures.NumRange();
 
-FlowControlC_PrimeNumber.PrimeNumber();
+//FlowControlC_PrimeNumber.PrimeNumber();
 
+FlowControlC__OddNumsDescending.OddNums();
