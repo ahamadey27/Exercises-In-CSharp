@@ -9,7 +9,7 @@ namespace AllExercises
     public static class FlowControlC_ConditionalNested
     {
         //Create a C# program that asks the user for two integers (a, b) and check how many of them are positive.
-        public static void ConditionNested()
+        public static int ConditionNested()
         {
             int x, y;
 
@@ -37,6 +37,10 @@ namespace AllExercises
 
                 break;
             }
+
+            int amount = ((x > 0) && (y > 0)) ? 2 : ((x > 0) || (y > 0)) ? 1 : 0;
+
+            return (amount);
 
 
 
