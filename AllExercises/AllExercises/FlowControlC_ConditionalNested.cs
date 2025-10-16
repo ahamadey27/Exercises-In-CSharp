@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace AllExercises
 {
-    //Create a C# program which asks the user for two numbers and answers, using the conditional operator (?), the following:
-    public static class FlowControlC_ConditionalOperator
+    public static class FlowControlC_ConditionalNested
     {
-        public static void Conditional()
+        //Create a C# program that asks the user for two integers (a, b) and check how many of them are positive.
+        public static void ConditionNested()
         {
             int x, y;
 
@@ -23,7 +23,7 @@ namespace AllExercises
                     continue;
                 }
 
-                while(true)
+                while (true)
                 {
                     if (int.TryParse(Console.ReadLine(), out y))
                     {
@@ -38,9 +38,7 @@ namespace AllExercises
                 break;
             }
 
-            Console.WriteLine(x > 0 ? $"{x} is positive" : $"{x} is negative.");
-            Console.WriteLine(y > 0 ? $"{y} is positive" : $"{y} is negative.");
-            Console.WriteLine((x > 0) && (y > 0) ? $"{x} and {y} are positive" : $"{x} and {y} are not both positive.");
+
 
         }
     }
