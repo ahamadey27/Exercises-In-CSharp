@@ -31,4 +31,6 @@
 
 //FlowControlC_PrimeNumber.PrimeNumber();
 
-FlowControlC__OddNumsDescending.OddNums();
+//FlowControlC__OddNumsDescending.OddNums();
+
+FlowControlC_ConditionalOperator.Conditional();
