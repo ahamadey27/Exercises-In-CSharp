@@ -17,13 +17,13 @@ namespace AllExercises
 
             while (true)
             {
-                if (!char.TryParse(Console.ReadLine(), out word))
+                string input = Console.ReadLine();
+                if (input.Length == 1 && char.TryParse(input, out word) && char.IsLetter(word))
                 {
-                    Console.WriteLine("Enter a valid character");
-                    continue;
+                    break;
                 }
 
-                break;
+                Console.WriteLine($"{input} is not a valid charecter");
             }
 
             word = char.ToLower(word);

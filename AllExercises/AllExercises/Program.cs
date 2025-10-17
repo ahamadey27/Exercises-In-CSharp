@@ -37,3 +37,5 @@
 
 //Console.WriteLine(FlowControlC_ConditionalNested.ConditionNested());
 
+DataTypesB_VowelCheck.VowelCheck();
+
