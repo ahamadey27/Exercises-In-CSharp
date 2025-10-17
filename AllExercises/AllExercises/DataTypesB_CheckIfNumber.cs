@@ -11,6 +11,18 @@ namespace AllExercises
     {
         public static void NumberCheck()
         {
+            Console.WriteLine("Enter a number");
+            string x = Console.ReadLine();
+
+            try
+            {
+                Convert.ToInt32(x);
+                Console.WriteLine($"{x} is a number");
+            }
+            catch
+            {
+                Console.WriteLine($"{x} is not a number");
+            }
 
         }
     }
